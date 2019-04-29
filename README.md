@@ -3,29 +3,24 @@
 </a>
 
 # notebooks
-
 ---
 
-[Drivetrain Hub Notebook Series](https://drivetrainhub.com/code/notebooks) - learn, collaborate, and share knowledge in the field of drivetrain engineering with notebooks.
-
-A notebook is an interactive code file with a human-friendly format, created with Markdown, HTML, and Python in [Jupyter](https://jupyter.org/).
+[Drivetrain Hub | Notebook Series](https://drivetrainhub.com/code/notebooks) - learn, collaborate, and share knowledge in the field of drivetrain engineering with notebooks.  A notebook is an interactive code file with a human-friendly format, created with Markdown, HTML, and Python in [Jupyter](https://jupyter.org/).
 
 Included with this repository:
 
-1. Directory of repositories in the Drivetrain Hub Notebook Series
-2. Drivetrain Hub [notebook template](https://github.com/drivetrainhub/notebooks/blob/master/template.ipynb)
+1. Directory of repositories in our Notebook Series
+2. [Notebook template](https://github.com/drivetrainhub/notebooks/blob/master/template.ipynb)
 3. Learning resources for contributors
 4. Contributing guidelines
 
 ## Repositories
-
 ---
 
 - [notebooks-gears](https://github.com/drivetrainhub/notebooks-gears)
 - [notebooks-fundamentals](https://github.com/drivetrainhub/notebooks-fundamentals)
 
 ## Learning Resources
-
 ---
 
 **Jupyter Notebooks**
@@ -45,12 +40,9 @@ Included with this repository:
 - [Package dependency and virtual environments with Pipenv](https://docs.pipenv.org/en/latest/)
 
 ## Report Issues
-
 ---
 
-<div class="alert alert-block alert-warning">
-    Only high-level issues should be reported in this repo, such as suggesting a new technical category for the Drivetrain Hub Notebook Series.  Issues specific to a notebook must be reported in the repo of that notebook.
-</div>
+> **WARNING**: Only high-level issues should be reported in this repo, such as suggesting a new technical category for the Drivetrain Hub Notebook Series.  Issues specific to a notebook must be reported in the repo of that notebook.
 
 Found a bug, inaccuracy, or improvement?
 
@@ -60,7 +52,6 @@ Search the GitHub issues in the relevant repository to see if the issue is alrea
 - [Issues for notebooks-fundamentals](https://github.com/drivetrainhub/notebooks-fundamentals/issues)
 
 ## Contribute
-
 ---
 
 Want to become a contributing author for a notebook?  Fantastic!
