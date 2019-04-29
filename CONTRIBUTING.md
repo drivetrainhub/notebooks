@@ -40,8 +40,8 @@ For high-level issues, such as suggesting a new technical category, see [noteboo
     2. Is your code cleanly formatted and free of typos?
     3. Is your code pushed to *your* forked `origin` on GitHub?  [See guide](https://github.com/Roshanjossey/first-contributions#push-changes-to-github) for help.
 2. Submit a pull request to the relevant repository:
-    1. [notebooks-gears pull request](https://github.com/drivetrainhub/notebooks-gears/pulls)
-    2. [notebooks-fundamentals pull request](https://github.com/drivetrainhub/notebooks-fundamentals/pulls)
+    1. [Pull request for notebooks-gears](https://github.com/drivetrainhub/notebooks-gears/pulls)
+    2. [Pull request for notebooks-fundamentals](https://github.com/drivetrainhub/notebooks-fundamentals/pulls)
     3. Need help?  See [GitHub help on pull requests](https://help.github.com/articles/about-pull-requests/)
 
 ### Questions or Inquiries
