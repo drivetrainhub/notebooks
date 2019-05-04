@@ -31,6 +31,14 @@ For high-level issues, such as suggesting a new technical category, see [noteboo
     2. If creating a new notebook, please use the [notebook template](https://github.com/drivetrainhub/notebooks/blob/master/template.ipynb) to get started.
 3. Develop the notebook with clean formatting and proper references.
     1. When including images, it is recommended to save a local copy of the image into an `img` folder in the same directory as the notebook.
+    2. To hide certain notebook cells when converted to HTML for online viewing, use these conventions:
+        1. Cell tags are used for this functionality, see dropdown View --> Cell Toolbar --> Tags
+        2. To hide the cell input, add tag:  hide_input
+        3. To hide the entire cell, add tag:  hide_cell
+    3. To convert a notebook to HTML, run `nbconvert` from the command line in the notebook directory.  For example:
+        ```
+        jupyter nbconvert "Chapter 1 - Involute.ipynb" --TagRemovePreprocessor.remove_input_tags="{'hide_input'}" --TagRemovePreprocessor.remove_cell_tags="{'hide_cell'}"
+        ```
     
 ### Pull Code to GitHub
 ---
