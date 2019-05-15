@@ -31,22 +31,28 @@ For high-level issues, such as suggesting a new technical category, see [noteboo
     2. If creating a new notebook, please use the [notebook template](https://github.com/drivetrainhub/notebooks/blob/master/template.ipynb) to get started.
 3. Develop the notebook with clean formatting and proper references.
     1. When including images, it is recommended to save a local copy of the image into an `img` folder in the same directory as the notebook.
-    2. To hide certain notebook cells when converted to HTML for online viewing, use these conventions:
+    2. Manually add or update the table of contents.  We prefer not to rely on notebook extensions at this time.
+    3. To hide certain notebook cells when converted to HTML for online viewing, use these conventions:
         1. Cell tags are used for this functionality, see dropdown View --> Cell Toolbar --> Tags
         2. To hide the cell input, add tag:  hide_input
         3. To hide the entire cell, add tag:  hide_cell
-    3. To convert a notebook to HTML, run `nbconvert` from the command line in the notebook directory.  For example:
+    4. To convert a notebook to HTML, run `nbconvert` from the command line in the notebook directory.  For example:
         ```
         jupyter nbconvert "Chapter 1 - Involute.ipynb" --TagRemovePreprocessor.remove_input_tags="{'hide_input'}" --TagRemovePreprocessor.remove_cell_tags="{'hide_cell'}"
         ```
-    
+
+> PRO TIP #1: If making use of imported Python modules that you are actively developing for use in a notebook, check out the [Jupyter %autoreload command](https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html?highlight=autoreload#autoreload).  **Only use %autoreload during development, then disable or remove it before submitting a pull request.**
+
+> PRO TIP #2: Need to create an illustration?  We recommend [Inkscape](https://inkscape.org/) for drawing high quality 2D graphics.
+
 ### Pull Code to GitHub
 ---
 
 1. Ready to merge your code with the GitHub master branch?
     1. Is your notebook using our template format for the header, title, author, and table of contents?
     2. Is your code cleanly formatted and free of typos?
-    3. Is your code pushed to *your* forked `origin` on GitHub?  [See guide](https://github.com/Roshanjossey/first-contributions#push-changes-to-github) for help.
+    3. Is your table of contents updated?
+    4. Is your code pushed to *your* forked `origin` on GitHub?  [See guide](https://github.com/Roshanjossey/first-contributions#push-changes-to-github) for help.
 2. Submit a pull request to the relevant repository:
     1. [Pull request for notebooks-gears](https://github.com/drivetrainhub/notebooks-gears/pulls)
     2. [Pull request for notebooks-fundamentals](https://github.com/drivetrainhub/notebooks-fundamentals/pulls)
