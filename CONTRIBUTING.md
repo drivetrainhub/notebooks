@@ -41,9 +41,9 @@ For high-level issues, such as suggesting a new technical category, see [noteboo
         jupyter nbconvert "Chapter 1 - Involute.ipynb" --TagRemovePreprocessor.remove_input_tags="{'hide_input'}" --TagRemovePreprocessor.remove_cell_tags="{'hide_cell'}"
         ```
 
-> PRO TIP #1: If making use of imported Python modules that you are actively developing for use in a notebook, check out the [Jupyter %autoreload command](https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html?highlight=autoreload#autoreload).  **Only use %autoreload during development, then disable or remove it before submitting a pull request.**
+> TIP #1: If making use of imported Python modules that you are actively developing for use in a notebook, check out the [Jupyter %autoreload command](https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html?highlight=autoreload#autoreload).  **Only use %autoreload during development, then disable or remove it before submitting a pull request.**
 
-> PRO TIP #2: Need to create an illustration?  We recommend [Inkscape](https://inkscape.org/) for drawing high quality 2D graphics.
+> TIP #2: Need to create an illustration?  We recommend [Inkscape](https://inkscape.org/) for drawing high quality 2D graphics.  Our preferred colors when not using black:  gray (#a7a7a7ff), blue (#006fe1ff), orange (#fc7500ff), pink (#fc00c3ff).
 
 ### Pull Code to GitHub
 ---
