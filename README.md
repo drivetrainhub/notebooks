@@ -1,11 +1,11 @@
-<a href="https://www.drivetrainhub.com/">
+<a href="https://drivetrainhub.com/">
     <img src="https://storage.googleapis.com/static.drivetrainhub.com/img/dh_logo_text_217x80.png" alt="drawing" height="40" align="right"/>
 </a>
 
 # notebooks
 ---
 
-[Drivetrain Hub | Notebook Series](https://drivetrainhub.com/code/notebooks) - learn, collaborate, and share knowledge in the field of drivetrain engineering with notebooks.  A notebook is an interactive code file with a human-friendly format, created with Markdown, HTML, and Python in [Jupyter](https://jupyter.org/).
+[Drivetrain Hub | Notebook Series](https://drivetrainhub.com/notebooks/) - learn, collaborate, and share knowledge in the field of drivetrain engineering with notebooks.  A notebook is an interactive code file with a human-friendly format, created with Markdown, HTML, and Python in [Jupyter](https://jupyter.org/).
 
 Included with this repository:
 
