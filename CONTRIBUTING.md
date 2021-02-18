@@ -38,7 +38,7 @@ For high-level issues, such as suggesting a new technical category, see [noteboo
         3. To hide the entire cell, add tag:  hide_cell
     4. To convert a notebook to HTML, run `nbconvert` from the command line in the notebook directory.  For example:
         ```
-        jupyter nbconvert "Chapter 1 - Involute.ipynb" --TagRemovePreprocessor.remove_input_tags="{'hide_input'}" --TagRemovePreprocessor.remove_cell_tags="{'hide_cell'}"
+        jupyter nbconvert --to html --template classic "Chapter 1 - Involute.ipynb" --TagRemovePreprocessor.remove_input_tags hide_input --TagRemovePreprocessor.remove_cell_tags hide_cell
         ```
 
 > TIP #1: If making use of imported Python modules that you are actively developing for use in a notebook, check out the [Jupyter %autoreload command](https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html?highlight=autoreload#autoreload).  **Only use %autoreload during development, then disable or remove it before submitting a pull request.**
